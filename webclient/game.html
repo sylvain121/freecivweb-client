@@ -1,0 +1,53 @@
+    
+    <div id="game_page" style="display: none;">
+    <script>
+        $(document).ready(function() {
+        $('#tabs-map').load('canvas.html');
+        $('#tabs-civ').load('civilization.html');
+        $('#tabs-tec').load('technologies.html');
+        $('#tabs-nat').load('nations.html');
+        $('#tabs-cit').load('city.html');
+        $('#tabs-hel').load('help.html');
+        $('#tabs-opt').load('options.html');
+        });
+    </script>
+    
+		<div id="tabs">
+		    
+			<ul id="tabs_menu">
+			    <div id="freeciv_logo" ></div>
+				<li id="map_tab"><a href="#tabs-map">Map</a></li>
+				<li id="civ_tab"><a href="#tabs-civ">Nation</a></li>
+				<li id="tech_tab"><a id="tech_tab_item" href="#tabs-tec">Research</a></li>
+				<li id="players_tab"><a href="#tabs-nat">Players</a></li>
+				<li style="display: none;"><a href="#tabs-cit">City</a></li>
+				<li id="opt_tab"><a href="#tabs-opt">Options</a></li>
+				<li id="chat_tab" style="display:none;"><a href="#tabs-chat">Chat</a></li>
+				<li id="hel_tab"><a href="#tabs-hel">Manual</a></li>
+
+
+				<div id="turn_done_button_div">
+            			  <button id="turn_done_button" type="button" 
+					  class="button">Turn Done</button>
+                		</div>
+			</ul>
+			
+			<div id="tabs-map">	</div>
+			<div id="tabs-civ"></div>
+			<div id="tabs-tec"></div>
+			<div id="tabs-nat"></div>
+			<div id="tabs-cit"></div>
+
+			<div id="tabs-hel"></div>
+			<div id="tabs-chat"></div>
+			<div id="tabs-opt"></div>
+			
+		</div>
+	
+      
+      
+    <div id="dialog" ></div>
+    <div id="diplomacy_dialog" ></div>
+    <div id="city_name_dialog" ></div>
+      
+ 

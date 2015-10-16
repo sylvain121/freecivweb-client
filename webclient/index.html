@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title>Freeciv-web</title>
+
+<!--<script type="text/javascript" src="/javascript-compressed/waterbug.js"> </script> -->
+
+<!--<link rel="stylesheet" type="text/css" href="/css/webclient.min.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="../css/bluecurve.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/civclient.css" />
+    <link rel="stylesheet" type="text/css" href="../css/fg.menu.css" />
+    <link rel="stylesheet" type="text/css" href="../css/forum-fix.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jplayer.blue.monday.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/openid.css" />
+    <link rel="stylesheet" type="text/css" href="../css/pregame.css" />
+
+<script type="text/javascript" src="../javascript-compressed/jquery.min.js"></script>
+
+<!--<script type="text/javascript" src="/webclient/session.html"></script> -->
+
+<link rel="shortcut icon" href="/images/freeciv-shortcut-icon.png" />
+<link rel="apple-touch-icon" href="/images/freeciv-splash2.png" />
+
+<%--  iPhone setup --%>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<script>
+    $(document).ready(function() {
+        $('#pregame').load('pregame.html');
+        $('#game').load('game.html');
+    });
+</script>
+
+</head>
+
+<body>
+	
+    <div id="pregame"></div>
+    <div id="game"></div>
+    <div id="javascript"></div>
+    
+ 
+</body>
+</html>
